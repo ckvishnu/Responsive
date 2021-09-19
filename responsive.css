@@ -1,0 +1,191 @@
+*{
+    font-family:sans-serif;
+    text-decoration: none;
+    margin:0; 
+    padding:0;
+}
+
+html{
+    font-size: 60%;
+}
+
+html::-webkit-scrollbar{
+    width:1.6rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:rgb(27, 27, 27);
+}
+
+html::-webkit-scrollbar-thumb{
+    background:crimson
+}
+
+header{
+    position: fixed;
+    top:0; 
+    left:0;
+    height:100%;
+    width:35rem;
+    background:#469ed1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+body{
+    background:rgb(0, 0, 0);
+    padding-left: 35rem;
+}
+
+img{
+    height:15rem;
+    width:15rem;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+header .vishnu .name{
+    font-size: 3.6rem;
+    color:rgb(37, 5, 5);
+}
+
+header .vishnu .study{
+    font-size: 2.3rem;
+    color:rgb(44, 9, 9);
+}
+
+header .navbar{
+    width:100%;
+}
+
+header .navbar ul{
+    list-style: none;
+    padding: 3rem;
+}
+
+header .navbar ul li a{
+    display: block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+
+header .navbar ul li a:hover{
+    background:crimson;
+}
+
+section{
+    min-height: 100vh;
+    padding:1rem;
+}
+
+.btn{
+    padding:0.8rem 2.8rem;
+    background:rgb(30, 97, 13);
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.btn:hover{
+    background:crimson
+}
+
+.heading{
+    text-align: center;
+    margin:0 6rem;
+    font-size: 4rem;
+    padding:1rem;
+    border-bottom: .1rem solid rgba(230, 114, 47, 0.267);
+    color:rgb(255, 255, 255);
+}
+
+.heading span{
+    color:rgb(223, 165, 20);
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding:0 15rem;
+}
+
+.home h3{
+    font-size: 2.5rem;
+    color:rgb(255, 255, 255);
+}
+
+.home h1{
+    font-size:5rem;
+    color:rgb(255, 255, 255);
+}
+
+.home h1 span{
+    color:rgb(224, 165, 16);
+}
+
+.home p{
+    font-size:2rem;
+    color:rgb(255, 255, 255);
+    padding: 1rem 0;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+}
+
+.about .details{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .details h3{
+    font-size: 2rem;
+    color:rgb(224, 165, 16);
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.about .details h3 span{
+    color:rgb(255, 255, 255);
+    padding:0 .5rem;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem 0;
+}
+
+.contact .details{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+}
+
+.contact .details h3{
+    font-size: 2rem;
+    color:rgb(224, 165, 16);
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.contact .details h3 span{
+    color:rgb(255, 255, 255);
+    padding:0 .5rem;
+}
+
+
